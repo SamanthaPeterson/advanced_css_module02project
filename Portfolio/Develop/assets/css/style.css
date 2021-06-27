@@ -12,7 +12,10 @@
   
   body {
     color: var(--tertiary-color);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Montserrat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
   }
   
   
@@ -249,6 +252,14 @@
     content: "";
   }
   /* HERO STYLES END */
+
+
+
+
+
+/* Trying Grids START */
+
+
   .container {
     display: flex;
   }
@@ -321,6 +332,11 @@ img {
 
 
 
+/* SECTION grids ends */
+
+
+
+
 
   /* SECTION TITLE STYLES START */
   .section-title {
@@ -342,7 +358,7 @@ img {
   }
   /* SECTION TITLE STYLES END */
   
-  /* WHAT WE DO STYLES */
+  /* About the Web Developer STYLES */
   .intro p {
     line-height: 1.7;
     color: var(--tertiary-color);
