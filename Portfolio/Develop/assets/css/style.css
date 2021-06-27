@@ -1,7 +1,74 @@
+element.style {
+}
+
+@media only screen and (max-device-width: 1600px)
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+}
+
+
+
+
+.bgimg-1 {
+    background-image: url(/img8.jpg);
+    min-height: 100%;
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.advcss2-opacity-min {
+    opacity: 0.75;
+}
+.advcss2-tooltip, .advcss2-display-container {
+    position: relative;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+div {
+    display: block;
+}
+
+
+body, html {
+    height: 100%;
+    color: rgb(199, 150, 150);
+    line-height: 1.8;
+}
+
+
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "algegreya", "eczar", "chivo";
+}
+
+html, body {
+    font-family: "algegreya", "eczar", "chivo";
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 :root {
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
+    --primary-color: #ffffff;
+    --secondary-color: #650a00;
+    --tertiary-color: #056a3e;
   }
   
   * {
@@ -9,28 +76,41 @@
     margin: 0;
     padding: 0;
   }
+
+
+ 
+ body {
+  color: var(--tertiary-color);
+  font-family: Montserrat;
   
+}
+ 
+
+   /*  
   body {
     color: var(--tertiary-color);
-    font-family: Montserrat;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-  
   }
+   */
   
-  
+
+
+
+
+
+
   /* HEADER / NAV BAR STYLES START */
   
   header {
     padding: 20px 35px;
-    background-color: var(--tertiary-color);
+    background-color: tomato;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/hero-bg2.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -38,11 +118,11 @@
   }
   
   header h1 {
-    font-weight: bold;
+    font-weight: ;
     margin: 0;
     font-size: 36px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(218, 36, 36, 0.5);
   }
   
   header a {
@@ -66,7 +146,7 @@
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(199, 141, 141, 0.5);
   }
   
   header nav ul li a:hover {
@@ -78,9 +158,22 @@
   
   /* HEADER / NAVBAR STYLES END */
   
+ 
+ 
+ 
+  /* start Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
   
-  
-  /* FOOTER STYLES START */
+  /* end Create a Parallax Effect */
+
+
+
+  /* start FOOTER STYLES START */
   footer {
     background: var(--primary-color);
     padding: 40px 35px;
@@ -106,14 +199,26 @@
   }
   /* END FOOTER STYLES */
   
-  /* STYLE ALL SECTION TAGS */
+
+
+
+
+
+  /* start STYLE ALL SECTION TAGS */
   section {
     padding: 60px;
   }
   
+/* end STYLE ALL SECTION TAGS */
+
+
+
+
+
+
   /* HERO STYLES START */
   .hero {
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('../images/hero-bg2.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -133,21 +238,22 @@
   }
   
   .hero-cta h2 {
-    font-style: italic;
+    font-family: "alegreyasans-thin.tiff";
+    font-style: ;
     font-size: 55px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
   
   .hero-form {
     border: 3px solid var(--secondary-color);
-    background-color: rgba(255, 225, 56, 0.8);
+    background-color: rgba(47, 149, 117, 0.518);
     padding: 20px;
     color: var(--secondary-color);
     width: 40%;
     margin: 3.5%;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(197, 80, 80, 0.5);
   }
   
   .hero-form button:hover {
@@ -254,8 +360,55 @@
   /* HERO STYLES END */
 
 
-/* MEET THE TRAINERS START */
-.trainers {
+
+
+
+
+
+
+
+/* portfolioS START */
+.portfolio h3 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(57, 27, 27, 0.5);
+}
+
+.portfolio section {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.portfolio h3 {
+  margin: 7px 0;
+}
+
+.portfolio article h3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.portfolio .portfolio-name {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(194, 80, 80, 0.5);
+}
+
+.portfolio .portfolio-name :hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+
+.portfolio {
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -263,36 +416,41 @@
   justify-content: space-around;
 }
 
-.trainer {
+.portfolio {
   margin: 20px;
   flex: 1;
   background: var(--secondary-color);
   color: var(--primary-color);
 }
 
-.trainer img {
+.portfolio img {
   width: 100%;
 }
 
-.trainer-bio {
+.portfolio-bio {
   padding: 25px;
   line-height: 1.3;
 }
 
-.trainer-bio h3 {
+.portfolio-bio h3 {
   font-size: 28px;
 }
 
-.trainer-bio h4 {
+.portfolio-bio h4 {
   font-weight: lighter;
   font-size: 22px;
   margin-bottom: 15px;
 }
 
-.trainer-bio p {
+.portfolio-bio p {
   font-size: 17px;
 }
-/* TRAINER STYLES END */
+/* portfolio STYLES END */
+
+
+
+
+
 
 
 
@@ -397,7 +555,14 @@ img {
   }
   /* SECTION TITLE STYLES END */
   
-  /* About the Web Developer STYLES */
+
+
+
+
+
+
+
+  /* About the Web Developer STYLES start */
   .intro p {
     line-height: 1.7;
     color: var(--tertiary-color);
@@ -406,15 +571,28 @@ img {
     font-size: 20px;
     text-align: center;
   }
-  /* WHAT YOU DO STYLES END */
+
+
+
+
+   /* end About the Web Developer STYLES */
   
   
-  /* WHAT YOU DO STYLES START */
-  .steps { 
+
+
+
+
+
+
+
+
+
+  /* resume STYLES START */
+  .resume { 
     background: var(--primary-color);
   }
   
-  .step {
+  .resume {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
@@ -424,50 +602,57 @@ img {
     justify-content: space-between;
   }
   
-  .step:last-child {
+  .resume:last-child {
     border-bottom: none;
   }
   
-  .step h3 {
+  .resume h3 {
     color: var(--secondary-color);
     font-size: 46px;
     flex: 1 30%;
   }
   
-  .step-info {
+  .resume-info {
     flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
   
-  .step-img {
+  .resume-img {
     flex: 1 12%;
     margin-right: 20px;
   }
   
-  .step-img img {
+  .resume-img img {
     max-width: 100%;
   }
   
-  .step-text {
+  .resume-text {
     flex: 12;
   }
   
-  .step-text p {
+  .resume-text p {
     color: var(--tertiary-color);
     font-size: 18px;
   }
   
-  .step-text h4 {
+  .resume-text h4 {
     font-size: 26px;
     line-height: 1.5;
     color: var(--secondary-color);
   }
-  /* WHAT YOU DO STYLES END */
+  /* resume STYLES END */
+
+
+
+
+
+
+
   
-  /* MEET THE TRAINERS START */
-  .trainers {
+  /* portfolioS START */
+  .portfolios {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -475,38 +660,50 @@ img {
     justify-content: space-around;
   }
   
-  .trainer {
+  .portfolio {
     margin: 20px;
     flex: 1;
     background: var(--secondary-color);
     color: var(--primary-color);
   }
   
-  .trainer img {
+  .portfolio img {
     width: 100%;
   }
   
-  .trainer-bio {
+  .portfolio-bio {
     padding: 25px;
     line-height: 1.3;
   }
   
-  .trainer-bio h3 {
+  .portfolio-bio h3 {
     font-size: 28px;
   }
   
-  .trainer-bio h4 {
+  .portfolio-bio h4 {
     font-weight: lighter;
     font-size: 22px;
     margin-bottom: 15px;
   }
   
-  .trainer-bio p {
+  .portfolio-bio p {
     font-size: 17px;
   }
-  /* TRAINER STYLES END */
+  /* portfolio STYLES END */
   
-  /* REACH OUT STYLES START */
+
+
+
+
+
+
+
+
+  /* Contact OUT STYLES START */
+
+
+
+
   .contact {
     background: var(--secondary-color);
   }
@@ -531,7 +728,7 @@ img {
   }
   
   .contact-info div {
-    color: white;
+    color: rgb(235, 176, 176);
   }
   
   .contact-info h3 {
@@ -556,7 +753,7 @@ img {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: rgba(255,255,255, 0.75);
+    background-color: rgba(227, 178, 178, 0.75);
   }
   
   .contact-form input:focus, .contact-form textarea:focus {
@@ -583,9 +780,21 @@ img {
   .contact-info a {
     color: var(--primary-color);
   }
-  /* REACH OUT STYLES END */
+
+
+
+
+
+  /* CONTACT STYLES END */
   
-  /* UTILITIES */
+
+
+  
+
+
+
+
+  /* START OF UTILITIES */
   .text-left {
     text-align: left;
   }
@@ -597,6 +806,23 @@ img {
   .flex-row {
     display: flex;
   }
+  
+  
+  
+  
+  
+  /* END OF UTILITIES */
+  
+  
+  
+  
+  
+  
+  
+  
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER *//* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  
+  
   
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 980px) {
@@ -638,7 +864,7 @@ img {
       width: 80%;
     }
     
-    .trainer {
+    .portfolio {
       flex: 0 70%;
     }
     
@@ -653,29 +879,29 @@ img {
       padding: 30px 15px;
     }
   
-    .step h3 {
+    .resume h3 {
       flex: 1 100%;
       text-align: center;
     }
   
-    .step-info {
+    .resume-info {
       flex: 2 100%;
       text-align: center;
       justify-content: center;
     }
   
-    .step-img {
+    .resume-img {
       flex: 0 32%;
       margin-right: 0;
       margin-top: 15px;
       margin-bottom: 15px;
     }
   
-    .step-text {
+    .resume-text {
       flex: 100%;  
     }
   
-    .trainer-bio h3, .trainer-bio h4 {
+    .portfolio-bio h3, .portfolio-bio h4 {
       display: block;
     }
   }
@@ -694,7 +920,7 @@ img {
       width: 100%;
     }
   
-    .trainer {
+    .portfolio {
       flex: 0 100%;
     }
   
@@ -711,3 +937,5 @@ img {
     }
   }
   
+
+  /* END OF MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
