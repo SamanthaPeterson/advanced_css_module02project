@@ -24,7 +24,8 @@ element.style {
     opacity: 0.75;
 }
 .advcss2-tooltip, .advcss2-display-container {
-    position: relative;
+    position: relative, center, inherit;
+    margin: auto: inherit;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -362,7 +363,17 @@ html {
 
 
 
-
+  .advcss2-opacity-min {
+    opacity: 0.75;
+}
+.advcss2-tooltip, .advcss2-display-container {
+    position: center;
+    margin: 150: ;
+    padding: 150px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 
 
