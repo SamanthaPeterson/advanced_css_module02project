@@ -1,88 +1,20 @@
-element.style {
-}
 
-@media only screen and (max-device-width: 1600px)
-.bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
-}
-
-
-
-
-.bgimg-1 {
-    background-image: url(/img8.jpg);
-    min-height: 100%;
-}
-.bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.the-opacity-min {
-    opacity: 0.75;
-}
-.the-tooltip, .the-display-container {
-    position: relative, center, inherit;
-    margin: auto: inherit;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-
-div {
-    display: block;
-}
-
-
-body, html {
-    height: 100%;
-    color: rgb(199, 150, 150);
-    line-height: 1.8;
-}
-
-
-
-body, h1, h2, h3, h4, h5, h6 {
-    font-family: "algegreya", "eczar", "chivo";
-}
-
-html, body {
-    font-family: "algegreya", "eczar", "chivo";
-    font-size: 15px;
-    line-height: 1.5;
-}
-
-html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-}
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
 :root {
     --primary-color: #ffffff;
-    --secondary-color: #650a00;
-    --tertiary-color: #056a3e;
+    --secondary-color: #8f7b64;  
+    --tertiary-color: #056a3e62;
   }
   
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
 
 
  
  body {
   color: var(--tertiary-color);
-  font-family: Montserrat;
+  font-family: "alegreyasans-medium", "alegreyasans-regular", "alegreyasans-thin", Arial, Helvetica, sans-serif, monospace, "algegreya", "eczar", "chivo";
   
 }
  
@@ -104,7 +36,7 @@ html {
   
   header {
     padding: 20px 35px;
-    background-color: tomato;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -123,7 +55,7 @@ html {
     margin: 0;
     font-size: 36px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(218, 36, 36, 0.5);
+    text-shadow: 0 0 10px rgba(45, 45, 45, 0.5);
   }
   
   header a {
@@ -197,6 +129,7 @@ html {
   
   footer a {
     color: var(--secondary-color);
+    color: #434234
   }
   /* END FOOTER STYLES */
   
@@ -248,7 +181,7 @@ html {
   
   .hero-form {
     border: 1.5px slategray var(--secondary-color);
-    background-color: rgba(47, 149, 117, 0.518);
+    background-color: rgba(53, 59, 8, 1);
     padding: 20px;
     color: var(--secondary-color);
     width: 40%;
@@ -299,28 +232,7 @@ html {
     border-radius: 10px;
   } 
   
-  .checkbox-wrapper input, .radio-wrapper input {
-    opacity: 0;
-  }
-  
-  .checkbox-wrapper label, .radio-wrapper label {
-    position: relative;
-    left: 10px;
-    margin: 10px;
-    line-height: 1.6;
-  }
-  
-  .checkbox-wrapper label::before, .radio-wrapper label::before {
-    content: "";
-    height: 20px;
-    width: 20px;
-    background: rgba(255, 255, 255, 0.75);  
-    border: 1px solid var(--secondary-color);  
-    position: absolute;
-    top: -4px;
-    left: -30px;
-  }
-  
+ 
   .radio-wrapper label::before {
     border-radius: 50%;
   }
@@ -739,7 +651,7 @@ img {
   }
   
   .contact-info div {
-    color: rgb(235, 176, 176);
+    color: rgb(255, 255, 255);
   }
   
   .contact-info h3 {
@@ -764,7 +676,7 @@ img {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: rgba(227, 178, 178, 0.75);
+    background-color: rgba(180, 178, 178, 0.75);
   }
   
   .contact-form input:focus, .contact-form textarea:focus {
@@ -950,3 +862,9 @@ img {
   
 
   /* END OF MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+ * @media only screen and (max-device-width: 1600px)
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+}
