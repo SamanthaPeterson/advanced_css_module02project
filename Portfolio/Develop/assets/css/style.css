@@ -20,10 +20,10 @@ element.style {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.advcss2-opacity-min {
+.the-opacity-min {
     opacity: 0.75;
 }
-.advcss2-tooltip, .advcss2-display-container {
+.the-tooltip, .the-display-container {
     position: relative, center, inherit;
     margin: auto: inherit;
 }
@@ -363,10 +363,10 @@ html {
 
 
 
-  .advcss2-opacity-min {
+  .the-opacity-min {
     opacity: 0.75;
 }
-.advcss2-tooltip, .advcss2-display-container {
+.the-tooltip, .the-display-container {
     position: center;
     margin: 150: ;
     padding: 150px;
