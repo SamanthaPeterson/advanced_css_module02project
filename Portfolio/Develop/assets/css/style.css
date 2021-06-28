@@ -247,14 +247,14 @@ html {
   }
   
   .hero-form {
-    border: 3px solid var(--secondary-color);
+    border: 1.5px slategray var(--secondary-color);
     background-color: rgba(47, 149, 117, 0.518);
     padding: 20px;
     color: var(--secondary-color);
     width: 40%;
     margin: 3.5%;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(197, 80, 80, 0.5);
+    box-shadow: 0 0 10px rgba(241, 153, 153, 0.5);
   }
   
   .hero-form button:hover {
