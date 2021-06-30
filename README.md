@@ -1,6 +1,6 @@
 # personal_portfolio_utilizing_advanced_css_skills
-/Users/samanthapeterson/Desktop/projects/advanced_css_challenge/advanced_css_module02project/Portfolio/Develop/assets/images/screencapture-file-Users-samanthapeterson-Desktop-projects-advanced-css-challenge-advanced-css-module02project-Portfolio-Develop-index1214-html-2021-06-30-17_09_31.png
-
+Portfolio/Develop/assets/images/screencapture-file-Users-samanthapeterson-Desktop-projects-advanced-css-challenge-advanced-css-module02project-Portfolio-Develop-index1214-html-2021-06-30-17_09_31.png
+https://github.com/SamanthaPeterson/personal_portfolio_utilizing_advanced_css_skills/blob/36a90daf2798dc7b58802f8f7e109b9ae746d0fe/Portfolio/Develop/assets/images/screencapture-file-Users-samanthapeterson-Desktop-projects-advanced-css-challenge-advanced-css-module02project-Portfolio-Develop-index1214-html-2021-06-30-17_09_31.png
 
 https://samanthapeterson.github.io/personal_portfolio_utilizing_advanced_css_skills/Portfolio/Develop/index1214.html
 
