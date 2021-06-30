@@ -1,10 +1,7 @@
 # personal_portfolio_utilizing_advanced_css_skills
-Portfolio/Develop/assets/images/screencapture-file-Users-samanthapeterson-Desktop-projects-advanced-css-challenge-advanced-css-module02project-Portfolio-Develop-index1214-html-2021-06-30-17_09_31.png
-https://github.com/SamanthaPeterson/personal_portfolio_utilizing_advanced_css_skills/blob/36a90daf2798dc7b58802f8f7e109b9ae746d0fe/Portfolio/Develop/assets/images/screencapture-file-Users-samanthapeterson-Desktop-projects-advanced-css-challenge-advanced-css-module02project-Portfolio-Develop-index1214-html-2021-06-30-17_09_31.png
 
 https://samanthapeterson.github.io/personal_portfolio_utilizing_advanced_css_skills/Portfolio/Develop/index1214.html
-
-
+![image](https://user-images.githubusercontent.com/85209802/124044456-acc2c980-d9ca-11eb-8275-848158bd0217.png)
 This project helped practice the use of new found skills. Particularly advanced CSS skills. This project is particularly relevant because it will come in handy when apply for jobs in web development. Students were to design a project with the intent that if a potential employer viewed this website would they easily be able to find contact information, a recent photo of the applicant, a body of work or list of skills, resume, can links be clicked on and do they say they lead where they lead to? It builds on the project previously worked on. Which was a basic understanding of CSS and HTML. 
 
 Programs utilized
