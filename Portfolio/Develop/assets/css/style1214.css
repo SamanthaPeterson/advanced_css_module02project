@@ -328,7 +328,7 @@ hero-form {
 
 
 /* portfolioS START */
-.portfolio h3 {
+.portfolio h4 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
@@ -341,11 +341,11 @@ hero-form {
   color: var(--primary-color);
 }
 
-.portfolio h3 {
+.portfolio h4 {
   margin: 7px 0;
 }
 
-.portfolio article h3 {
+.portfolio article h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -384,25 +384,27 @@ hero-form {
 }
 
 .portfolio img {
-  width: 100%;
+  width: auto;
+  height: auto;
+  margin: auto;
 }
 
-.portfolio-bio {
+.portfolio-bio portfolio-role{
   padding: 25px;
   line-height: 1.3;
 }
 
-.portfolio-bio h3 {
+.portfolio-bio h4 portfolio-role {
   font-size: 28px;
 }
 
-.portfolio-bio h4 {
+.portfolio-bio h4 portfolio-role {
   font-weight: lighter;
   font-size: 22px;
   margin-bottom: 15px;
 }
 
-.portfolio-bio p {
+.portfolio-bio p  portfolio-role{
   font-size: 17px;
 }
 /* portfolio STYLES END */
