@@ -124,6 +124,7 @@
   
   footer h2, h6, h3 {
     color: var(--secondary-color);
+    color: black;
     font-size: 30px;
     margin: 0;
   }
@@ -1007,6 +1008,7 @@ font-weight: bold, large;
   font-family: "alegreyasans-thin.tiff";
   font-size: 55px;
   color: var(--primary-color);
+  color: #8f7b64;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -1134,17 +1136,14 @@ font-weight: bold, large;
 
   /* Contact STYLES START */
 
-
-
-
   .contact {
-    background: var(--secondary-color);
-  
+    background: var(--secondary-color)
+    wheat;
   }
   
   .contact h2, h3, h6 {
     color: var(--primary-color);
-    color: rgb(205, 205, 205);
+    color: rgb(0, 0, 0);
   }
   
   .contact-info {
@@ -1169,6 +1168,7 @@ font-weight: bold, large;
   
   .contact-info h6 {
     color: var(--primary-color);
+    color: black;
     font-size: 32px;
   }
   
@@ -1185,11 +1185,12 @@ font-weight: bold, large;
     padding: 7px 15px;
     font-size: 16px;
     color: var(--secondary-color);
+    color: black;
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: rgba(225, 225, 225, 0.75);
+    background-color: rgba(255, 255, 255, 0.75);
   }
   
   .contact-form input:focus, .contact-form textarea:focus {
@@ -1218,12 +1219,14 @@ font-weight: bold, large;
     color: black;
   }
 
+
+.section-title .secondary-border {
+  color: #fff;
+}
+
   /* CONTACT STYLES END */
   
 
-
-
-  
 
 .about-the-web-developer .form {
   flex-grow: inherit;
