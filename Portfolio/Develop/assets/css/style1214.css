@@ -1,4 +1,4 @@
-
+∫
 * *:before *:after {
     box-sizing: inherit;
 }
@@ -327,6 +327,9 @@ hero-form {
 
 
 
+
+
+
 /* portfolioS START */
 .portfolio h4 {
   font-weight: bold;
@@ -408,6 +411,9 @@ hero-form {
   font-size: 17px;
 }
 /* portfolio STYLES END */
+
+
+
 
 
 
@@ -1133,16 +1139,19 @@ font-weight: bold, large;
 
   .contact {
     background: var(--secondary-color);
+  
   }
   
   .contact h2, h3, h6 {
     color: var(--primary-color);
+    color: rgb(205, 205, 205);
   }
   
   .contact-info {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: rgb(205, 205, 205);
   }
   
   .contact-info > * {
@@ -1155,10 +1164,10 @@ font-weight: bold, large;
   }
   
   .contact-info div {
-    color: rgb(118, 117, 117);
+    color: hsl(0, 0%, 75%);
   }
   
-  .contact-info h3 {
+  .contact-info h6 {
     color: var(--primary-color);
     font-size: 32px;
   }
@@ -1206,20 +1215,20 @@ font-weight: bold, large;
   
   .contact-info a {
     color: var(--primary-color);
+    color: black;
   }
-
-
-
-
 
   /* CONTACT STYLES END */
   
 
 
+
   
+
 .about-the-web-developer .form {
   flex-grow: inherit;
 }
+
 
 
 
