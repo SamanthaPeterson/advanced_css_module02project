@@ -1,4 +1,6 @@
 # personal_portfolio_utilizing_advanced_css_skills
+/Users/samanthapeterson/Desktop/projects/advanced_css_challenge/advanced_css_module02project/Portfolio/Develop/assets/images/screencapture-file-Users-samanthapeterson-Desktop-projects-advanced-css-challenge-advanced-css-module02project-Portfolio-Develop-index1214-html-2021-06-30-17_09_31.png
+
 
 https://samanthapeterson.github.io/personal_portfolio_utilizing_advanced_css_skills/Portfolio/Develop/index1214.html
 
