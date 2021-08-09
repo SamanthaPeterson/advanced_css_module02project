@@ -372,6 +372,7 @@ hero-form {
 }
 
 
+
 .portfolio {
   width: 100%;
   margin: 0 auto;
@@ -379,6 +380,7 @@ hero-form {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 
 .portfolio {
   margin: 20px;
@@ -389,7 +391,7 @@ hero-form {
 
 .portfolio img {
   width: auto;
-  height: auto;
+  height: 50%;
   margin: auto;
 }
 
@@ -410,6 +412,12 @@ hero-form {
 
 .portfolio-bio p  portfolio-role{
   font-size: 17px;
+}
+
+.portfolio .flex-row .section-title .primary-border {
+  border-image-width: 50%;
+  image height: 50%;
+  m
 }
 /* portfolio STYLES END */
 
